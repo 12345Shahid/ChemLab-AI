@@ -1,0 +1,125 @@
+# HK Form 1-3 Chemistry Curriculum vs PhET Coverage Analysis
+
+> This document maps every chemistry topic in the Hong Kong Junior Secondary Integrated Science curriculum (Forms 1–3) to available PhET simulations, identifies gaps, and proposes alternatives.
+
+## Context
+- **Grant**: HK Government "AI for Empowering Learning and Teaching" — HK$500,000 (~US$64,200) per school
+- **Requirement**: AI-assisted teaching in at least 3 subjects by the school
+- **Platform**: PhET Interactive Simulations (free, HTML5, multilingual)
+
+---
+
+## Coverage Matrix
+
+### Form 1 — Foundational Chemistry
+
+| # | Curriculum Topic | PhET Simulation | Status |
+|---|---|---|---|
+| 1 | **States of Matter** (solid, liquid, gas properties) | ✅ [States of Matter](https://phet.colorado.edu/en/simulations/states-of-matter) | **Covered** |
+| 2 | **Particle Theory** (matter is made of particles) | ✅ [States of Matter: Basics](https://phet.colorado.edu/en/simulations/states-of-matter-basics) | **Covered** |
+| 3 | **Changes of Physical State** (melting, boiling, evaporation) | ✅ States of Matter (heating/cooling controls) | **Covered** |
+| 4 | **Dissolving** (solvent, solute, solution, rate of dissolving) | ✅ [Sugar and Salt Solutions](https://phet.colorado.edu/en/simulations/sugar-and-salt-solutions) / [Concentration](https://phet.colorado.edu/en/simulations/concentration) | **Covered** |
+| 5 | **Solubility** | ✅ [Molarity](https://phet.colorado.edu/en/simulations/molarity) / Concentration | **Covered** |
+| 6 | **Filtration** | ⚠️ No dedicated PhET sim | **GAP** |
+| 7 | **Evaporation as separation** | ⚠️ Partially via Concentration sim (evaporation slider) | **Partial** |
+| 8 | **Elements, Compounds, Mixtures** (classification) | ✅ [Build a Molecule](https://phet.colorado.edu/en/simulations/build-a-molecule) | **Covered** |
+| 9 | **Metals vs Non-metals** (physical properties) | ❌ No PhET sim | **GAP** |
+| 10 | **Molecular Models / Chemical Formulae** | ✅ Build a Molecule / [Molecule Shapes](https://phet.colorado.edu/en/simulations/molecule-shapes) | **Covered** |
+
+---
+
+### Form 2 — Reactions, Acids & Gases
+
+| # | Curriculum Topic | PhET Simulation | Status |
+|---|---|---|---|
+| 11 | **Composition of Air** (O₂, N₂, CO₂ percentages) | ⚠️ [Molecules and Light](https://phet.colorado.edu/en/simulations/molecules-and-light) (shows molecule types) | **Partial** |
+| 12 | **Gas Tests** (testing for O₂, CO₂, H₂) | ❌ No PhET sim | **GAP** |
+| 13 | **Combustion / Burning** (fire triangle, products) | ❌ No direct PhET sim | **GAP** |
+| 14 | **Respiration as Chemical Reaction** | ❌ No PhET sim (biology overlap) | **GAP** |
+| 15 | **Acids & Alkalis** (properties, examples) | ✅ [Acid-Base Solutions](https://phet.colorado.edu/en/simulations/acid-base-solutions) | **Covered** |
+| 16 | **pH Scale & Indicators** | ✅ [pH Scale](https://phet.colorado.edu/en/simulations/ph-scale) / [pH Scale: Basics](https://phet.colorado.edu/en/simulations/ph-scale-basics) | **Covered** |
+| 17 | **Neutralization Reactions** | ✅ Acid-Base Solutions (mixing acid + base) | **Covered** |
+| 18 | **Preparation & Uses of Salts** | ⚠️ Partially via Acid-Base Solutions | **Partial** |
+| 19 | **Gas Properties** (pressure, volume, temperature) | ✅ [Gas Properties](https://phet.colorado.edu/en/simulations/gas-properties) | **Covered** |
+
+---
+
+### Form 3 — Atomic World & Materials
+
+| # | Curriculum Topic | PhET Simulation | Status |
+|---|---|---|---|
+| 20 | **Atomic Structure** (protons, neutrons, electrons) | ✅ [Build an Atom](https://phet.colorado.edu/en/simulations/build-an-atom) | **Covered** |
+| 21 | **Atomic Number & Mass Number** | ✅ Build an Atom | **Covered** |
+| 22 | **Isotopes** | ✅ [Isotopes and Atomic Mass](https://phet.colorado.edu/en/simulations/isotopes-and-atomic-mass) | **Covered** |
+| 23 | **Periodic Table** (organization, groups, periods) | ✅ Build an Atom (links to periodic table) | **Covered** |
+| 24 | **Ionic Bonding** | ⚠️ [Atomic Interactions](https://phet.colorado.edu/en/simulations/atomic-interactions) (shows forces, not ionic bonding directly) | **Partial** |
+| 25 | **Covalent Bonding** | ⚠️ [Molecule Polarity](https://phet.colorado.edu/en/simulations/molecule-polarity) / Molecule Shapes | **Partial** |
+| 26 | **Chemical Formulae & Naming** | ✅ Build a Molecule | **Covered** |
+| 27 | **Balancing Chemical Equations** | ✅ [Balancing Chemical Equations](https://phet.colorado.edu/en/simulations/balancing-chemical-equations) | **Covered** |
+| 28 | **Reaction Rates** | ✅ [Reactions & Rates](https://phet.colorado.edu/en/simulations/reactions-and-rates) | **Covered** |
+| 29 | **Rocks, Minerals & Metal Extraction** | ❌ No PhET sim | **GAP** |
+| 30 | **Oxidation & Reduction (Redox)** | ❌ No PhET sim | **GAP** |
+| 31 | **Separation Techniques** (distillation, crystallization) | ❌ No PhET sim for distillation/crystallization | **GAP** |
+| 32 | **Density** | ✅ [Density](https://phet.colorado.edu/en/simulations/density) | **Covered** |
+
+---
+
+## Summary Scorecard
+
+| Category | Covered | Partial | Gap | Total |
+|---|---|---|---|---|
+| **Form 1** | 7 | 2 | 1 | 10 |
+| **Form 2** | 4 | 2 | 3 | 9 |
+| **Form 3** | 8 | 2 | 3 | 13 |
+| **Overall** | **19** | **6** | **7** | **32** |
+
+> **PhET covers ~59% fully, ~19% partially, and has gaps in ~22% of the HK curriculum.**
+
+---
+
+## ⚠️ Critical Gaps (No PhET Simulation Available)
+
+These 7 topics have **no PhET simulation** and will need alternatives:
+
+| Topic | Form | Why it Matters | Recommended Alternative |
+|---|---|---|---|
+| **Filtration** | F1 | Core separation technique in HK syllabus | [ChemCollective](https://chemcollective.org/) or custom AI-guided sim |
+| **Metals vs Non-metals** | F1 | Required classification topic | Custom interactive (AI-powered comparison tool) |
+| **Gas Tests** (O₂, CO₂, H₂) | F2 | Key practical skills in HK exams | [Amrita Virtual Lab](https://vlab.amrita.edu/) or custom sim |
+| **Combustion** | F2 | Linked to respiration & energy topics | [ChemCollective](https://chemcollective.org/) or video + AI Q&A |
+| **Respiration as Chemical Reaction** | F2 | Biology-chemistry crossover | LabXchange or custom AI explanation |
+| **Rocks, Minerals & Metal Extraction** | F3 | Earth science crossover topic | [Virtual Labs India](https://vlab.co.in/) or custom sim |
+| **Oxidation & Reduction** | F3 | Foundation for senior chemistry | [ChemCollective](https://chemcollective.org/) redox virtual labs |
+| **Distillation / Crystallization** | F3 | Separation technique required | [Amrita Virtual Lab](https://vlab.amrita.edu/) fractional distillation sim |
+
+---
+
+## ✅ Recommended Strategy
+
+### Option A: PhET + Supplementary Platforms (Faster, Lower Cost)
+1. Use **PhET** for the 19 fully-covered + 6 partially-covered topics (78%)
+2. Integrate **ChemCollective** for gap topics related to chemical reactions (combustion, redox)
+3. Integrate **Amrita Virtual Lab** for separation techniques (distillation, crystallization, gas tests)
+4. Use **AI (Gemini)** to bridge partial gaps with interactive Q&A and guided explanations
+
+### Option B: PhET + Custom AI Simulations (More Grant-Aligned, Higher Impact)
+1. Use **PhET** for covered topics
+2. Build **custom AI-powered interactive simulations** for the 7 gap topics using Gemini
+3. This approach is **more impressive for the grant** as it demonstrates AI integration directly
+4. Can be developed incrementally and showcases the school's innovation
+
+> [!IMPORTANT]
+> **Option B is recommended** — it maximizes the AI component (which the grant specifically funds), fills all curriculum gaps, and positions the project as a truly innovative solution. The custom sims don't need to be as polished as PhET; they just need to be functional and AI-enhanced.
+
+---
+
+## 6 Partially-Covered Topics — How AI Can Fill the Gaps
+
+| Topic | Current PhET Limitation | AI Enhancement |
+|---|---|---|
+| Evaporation as separation | Only a slider in Concentration sim | AI explains the separation process step-by-step |
+| Composition of Air | Molecules and Light shows molecules, not composition | AI chatbot provides composition data & quiz |
+| Preparation of Salts | Acid-Base sim doesn't show salt formation explicitly | AI walks through salt preparation procedures |
+| Ionic Bonding | Atomic Interactions shows forces, not ionic transfer | AI animates electron transfer with explanations |
+| Covalent Bonding | Molecule Polarity shows polarity, not bond formation | AI explains shared electron pairs interactively |
+| Neutralization Products | Acid-Base sim shows neutralization but not products | AI identifies products and writes equations |

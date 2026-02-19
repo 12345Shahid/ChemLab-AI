@@ -1,0 +1,18 @@
+{
+  "name": "chemlab-hk",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI-Powered Virtual Chemistry Lab for Hong Kong Form 1-3 Students",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.96.0"
+  }
+}
