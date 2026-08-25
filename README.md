@@ -9,23 +9,23 @@ To provide an accessible, engaging, and interactive platform for learning chemis
 
 ```mermaid
 flowchart TD
-    subgraph Frontend (Vite + Vanilla JS)
-        Router[Hash Router]
-        UI[Curriculum / Lab / Dashboard]
-        Bot[ChemBot UI]
+    subgraph Frontend [Frontend: Vite + Vanilla JS]
+        Router["Hash Router"]
+        UI["Curriculum / Lab / Dashboard"]
+        Bot["ChemBot UI"]
     end
     
-    subgraph Services
-        Auth[Supabase Auth]
-        DB[(Supabase DB)]
-        AI[Gemini AI]
+    subgraph Services [Services]
+        Auth["Supabase Auth"]
+        DB[("Supabase DB")]
+        AI["Gemini AI"]
     end
     
     Router --> UI
-    UI -->|Session & History| Auth
-    UI -->|Save Progress| DB
-    Bot <-->|Chat Context| AI
-    Bot <-->|Persist Chat| DB
+    UI -->|"Session & History"| Auth
+    UI -->|"Save Progress"| DB
+    Bot <-->|"Chat Context"| AI
+    Bot <-->|"Persist Chat"| DB
 ```
 
 ## ✨ Features
