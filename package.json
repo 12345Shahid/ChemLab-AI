@@ -1,8 +1,10 @@
 {
-  "name": "chemlab-hk",
+  "name": "chemlab-ai",
   "private": true,
   "version": "1.0.0",
   "description": "AI-Powered Virtual Chemistry Lab for Hong Kong Form 1-3 Students",
+  "author": "Shahid",
+  "keywords": ["edtech", "chemistry", "ai", "vite", "supabase"],
   "type": "module",
   "scripts": {
     "dev": "vite",
